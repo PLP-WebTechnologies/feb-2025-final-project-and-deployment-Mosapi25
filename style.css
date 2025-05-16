@@ -46,11 +46,110 @@ main {
   margin: 0 auto;
 }
 
-h1 {
-  text-align: center;
-  color: #b22222; /* firebrick red */
-  margin-bottom: 2rem;
+.feature-image {
+  max-width: 100%;
+  height: auto;
+  width: 300px; /* or whatever size you prefer */
+  display: block;
+  margin: 20px auto; /* centers the image */
+  border-radius: 10px; /* optional: gives rounded corners */
 }
+
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: #f9f9f9;
+}
+
+/* Blog Post Box */
+.blog-post {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0 15px;
+}
+
+/* Header & Meta */
+.post-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 5px;
+}
+
+.post-meta span {
+  margin-right: 15px;
+}
+
+/* Content */
+.post-content p,
+.post-content ol,
+.post-content ul {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Read More Link */
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #e67e22;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.read-more:hover {
+  color: #d35400;
+  text-decoration: underline;
+}
+
+/* Pagination */
+.pagination {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #e67e22;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.pagination a:hover {
+  text-decoration: underline;
+}
+
 
 /* Recipe Cards */
 .recipe {
@@ -113,7 +212,7 @@ h1 {
 .contact-info a i {
   margin-right: 8px;
   font-size: 1.3rem; /* Icon size */
-  color:rgba(211, 0, 28, 0.72); /* Icon color */
+  color:rgba(1, 55, 87, 0.72); /* Icon color */
 }
 
 .contact-info a:hover i {
@@ -189,8 +288,8 @@ h1 {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color:rgb(161, 95, 57);
-  color:rgb(175, 97, 23);
+  background-color:rgb(175, 97, 23);
+  color:rgba(241, 184, 130, 0.91);
   margin-top: 3rem;
   font-size: 0.9rem;
 }
