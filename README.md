@@ -14,7 +14,7 @@ Ecommerce Website: Implement a multi-page site with navigation.
 > - Include at least:
 > - A responsive design.
 > - JavaScript interactivity.
-> - A deployment link.
+> - A deployment link.  https://mosafinalassignment.netlify.app/ 
 
 ## Tasks
 
